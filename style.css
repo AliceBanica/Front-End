@@ -1,0 +1,20 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+nav li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.container{
+    margin: 0px 250px;
+} 
+
+.timing{
+    font-style: italic;
+    font-weight: normal;
+}
