@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #EEEBEB;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    align-items: center;
+}
+
+p{
+    font-size: 50px;
+    width: 60%;
+}
+
+span{
+    font-size: 30px;
+    color: grey;
+}
+
+.container{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+
+}
+
+form{
+    display: flex;
+    background-color: #EEEBEB;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(199, 199, 199);
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#message{
+    height: 120px;
+}
+
+label{
+    padding: 5px;
+    
+}
+
+input{
+    display: block;
+    width: 200px;
+}
+
+#message{
+    padding-bottom: 100px;
+}
+
+button{
+    background-color: rgb(67, 134, 235);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(199, 199, 199);
+    padding: 5px;
+    margin-right: 4px;
+}
+
+.info, .links{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    padding: 15px 0 3px 0;
+    
+}
+
+.links{
+    padding: 15px 0;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-top: 1px solid rgb(199, 199, 199);
+}
+
+a{
+    text-decoration: none;
+}
+@media screen and (max-width:900px){
+    p{
+        font-size: 40px;
+        width: 60%;
+    }
+    
+    span{
+        font-size: 20px;
+        color: grey;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 650px){
+    span{
+        display: inline-block;
+    }
+}
+
+
+
+
